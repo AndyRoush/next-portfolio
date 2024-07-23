@@ -40,51 +40,59 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Front End Developer",
+    location: "Culver City, CA",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "As a front end developer at Sony Pictures Entertainment, I created an innovative tool for the metadata team, significantly reducing their workload and enhancing efficiency.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021-Present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Front End JavaScript Developer",
+    location: "Newport Beach, CA",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "At a leading investment management company, I specialized in developing dynamic customer-facing web applications and transforming legacy sites with modern React frameworks.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2018-2024",
+  },
+  {
+    title: "Teaching Assistant",
+    location: "Irvine, CA",
+    description:
+      "As a teaching assistant for the UCI Department of Continuing Education coding bootcamp, I mentored students and facilitated their learning journey in web development.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2018 - 2019",
+  },
+  {
+    title: "Graduated Bootcamp",
+    location: "Irvine, CA",
+    description:
+      "After an intensive 6-month coding bootcamp, I quickly transitioned into a teaching assistant role, leveraging my fresh knowledge to support and guide new students.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2018",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Time Saver",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "A search tool I built for the metadata team at Sony Pictures. It cut down the departments search time by 65%",
+    tags: ["React", "CSS", "TV-API", "OMDB API", "ANT Design"],
     imageUrl: timeSaverImg,
   },
   {
-    title: "rmtDev",
+    title: "Investor Portal",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "I was the front-end developer of the project. It allowed investors to log in and get/request information on the product that was being sold.",
+    tags: ["React", "Material UI", "React-Router", "Axios"],
     imageUrl: investorPortalImg,
   },
   {
-    title: "Word Analytics",
+    title: "Data Vault",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A private web app that investors can log in to to product information. It shows fund highlights, investments, fund information, due diligence information and more.",
+    tags: ["React", "React-router", "Bootstrap", "Redux", "Redux Thunk", "Axios"],
     imageUrl: dataVaultImg,
   },
 ] as const;
