@@ -91,7 +91,7 @@ export const projectsData = [
   {
     title: "Data Vault",
     description:
-      "A private web app that investors can log in to to product information. It shows fund highlights, investments, fund information, due diligence information and more.",
+      "A private web app that investors can log in to to view product information. It shows fund highlights, investments, fund information, due diligence information and more.",
     tags: ["React", "React-router", "Bootstrap", "Redux", "Redux Thunk", "Axios"],
     imageUrl: dataVaultImg,
   },
